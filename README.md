@@ -4,6 +4,8 @@ I build AI systems that keep context, learn from real use, and try to be genuine
 
 My main project right now is **Astakos AI Agent**: a local-first personal AI companion with long-term memory, proactive routines, cross-channel context, and real tool use across **Telegram**, **Web UI**, and **terminal workflows**.
 
+Currently building practical AI agents with memory, routines, and real-world context.
+
 ## What I'm building
 
 - Local-first AI assistants
