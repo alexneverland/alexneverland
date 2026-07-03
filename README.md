@@ -11,6 +11,12 @@ My main focus right now is **local-first AI agents**, **memory-driven workflows*
 [![Local First](https://img.shields.io/badge/Focus-Local_First-16A34A?style=for-the-badge)](https://github.com/alexneverland)
 [![AI Agents](https://img.shields.io/badge/Work-AI_Agents-7C3AED?style=for-the-badge)](https://github.com/alexneverland/Astakos-AI-Agent)
 
+## Currently building
+
+- **Astakos AI Agent** — a local-first AI companion with memory, routines, follow-ups, approvals, and shared context across Telegram, Web UI, and terminal flows
+- **Better memory quality** — cleaner fact capture, smarter dedupe, and more useful long-term recall
+- **Practical agent UX** — faster chat paths, better observability, and safer tool-driven behavior
+
 ## What I build
 
 - Local-first AI assistants
