@@ -1,81 +1,82 @@
 # Lazaros Avramidis
 
-**Python Developer and AI Systems Builder**
+### I build practical software around real problems.
 
-I build practical AI systems with memory, tools, and real runtime behavior - the kind that stay useful after the demo ends.
+I'm a software developer who likes turning messy everyday workflows into tools that actually get used.
 
-My main focus right now is **local-first AI agents**, **memory-driven workflows**, and **automation systems** that can fit into everyday work and family life.
+Some projects start from problems I meet at work. Others start because I want an AI assistant to remember more, do more, or fit better into everyday life. I mostly work with Python, FastAPI, Django, React / React Native, SQLite, and AI APIs — but the technology comes second to making the workflow useful.
 
 [![Astakos AI Agent](https://img.shields.io/badge/Astakos-AI_Agent-2563EB?style=for-the-badge)](https://github.com/alexneverland/Astakos-AI-Agent)
+[![OrderMind](https://img.shields.io/badge/OrderMind-B2B_AI_Workflow-0F766E?style=for-the-badge)](https://github.com/alexneverland/OrderMind)
 [![Python](https://img.shields.io/badge/Python-Builder-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Local First](https://img.shields.io/badge/Focus-Local_First-16A34A?style=for-the-badge)](https://github.com/alexneverland)
-[![AI Agents](https://img.shields.io/badge/Work-AI_Agents-7C3AED?style=for-the-badge)](https://github.com/alexneverland/Astakos-AI-Agent)
 
-## Currently building
+## What I'm building now
 
-- **Astakos AI Agent** — a local-first AI companion with memory, routines, follow-ups, approvals, and shared context across Telegram, Web UI, and terminal flows
-- **Better memory quality** — cleaner fact capture, smarter dedupe, and more useful long-term recall
-- **Practical agent UX** — faster chat paths, better observability, and safer tool-driven behavior
+### 🦞 [Astakos AI Agent](https://github.com/alexneverland/Astakos-AI-Agent)
 
-## What I build
+Astakos is my attempt at building the kind of AI assistant I actually want to use every day.
 
-- Local-first AI assistants
-- Multi-agent systems with LangGraph
-- Long-term memory with SQLite and ChromaDB
-- Proactive routine intelligence and follow-up systems
-- FastAPI backends and tool-using agents
-- Debuggable, observable AI workflows
+It runs from my own machine, keeps long-term memory and runtime state locally, works across Web, Telegram, and Matrix, uses real tools, follows up on things, learns recurring routines, and asks for approval before risky actions.
 
-## Featured projects
+The project combines memory, agents, scheduling, approvals, voice, files, external services, and local execution into one system that is meant to stay useful beyond a single chat session.
 
-### [Astakos AI Agent](https://github.com/alexneverland/Astakos-AI-Agent)
+**Core stack:** `Python` `LangGraph` `FastAPI` `SQLite` `ChromaDB` `Docker` `Gemini / Vertex AI` `OpenAI` `Anthropic`
 
-A local-first personal AI companion built around continuity, context, and real-world usefulness.
+### 📦 [OrderMind](https://github.com/alexneverland/OrderMind)
 
-It includes:
+OrderMind came from a very different problem: real B2B orders are messy.
 
-- long-term memory
-- proactive reminders and routines
-- shared context across Telegram, Web UI, and terminal flows
-- document, photo, voice, and tool-aware workflows
-- approval gates, scheduler jobs, and runtime observability
+Customers send Excel files, PDFs, images, documents, or plain text, while the business still needs clean product matching, quantities, packaging rules, approvals, and exports.
 
-**Core stack:** `Python` `LangGraph` `FastAPI` `SQLite` `ChromaDB` `Gemini / Vertex AI`
+OrderMind turns that mess into a controlled review workflow:
+
+**intake → extraction → catalog matching → operator review → approval → export**
+
+AI helps extract customer evidence, but the company catalog and the human operator remain the source of truth. The system supports company-specific business rules, corrections with audit history, packaging logic, export profiles, and pallet planning.
+
+**Core stack:** `Python` `FastAPI` `React` `SQLite` `Alembic` `Gemini` `OpenAI` `Claude` `Vertex AI`
+
+## How I tend to build
+
+I usually start with a real annoyance rather than an idea for “an app”.
+
+- If a repetitive job can be automated, I automate it.
+- If information gets lost between steps, I build a workflow around it.
+- If an AI feature is not reliable enough to act alone, I put a human checkpoint around it.
+- If a system can fail silently, I try to make its state visible and debuggable.
+
+I like local-first software, clear state, audit trails, practical automation, and AI that works inside an actual process instead of only answering questions.
+
+## Other things I've built
 
 ### [ShiftMaster](https://github.com/alexneverland/Shiftmaster)
+Workforce scheduling and leave-management software built around practical business workflows, permissions, and reliability.
 
-A workforce scheduling and leave-management system focused on practical business workflows, permissions, and reliability.
+### [PraxisERP](https://github.com/alexneverland/PraxisERP)
+A business software project focused on ERP-style workflows and day-to-day operational needs.
 
-## What I care about
+### [Palletes Manager](https://github.com/alexneverland/paletes-manager)
+A lightweight tool built around a real logistics problem: organizing pallet-related work more simply.
 
-I like building systems that are:
+### [Smart PDF Organizer](https://github.com/alexneverland/smart-pdf-organizer)
+A small automation utility for working with and organizing PDF files.
 
-- useful before they are flashy
-- personal without feeling fake
-- observable when they misbehave
-- flexible enough to adapt to real routines, family life, and work
+## Beyond the code
 
-I care a lot about continuity, memory quality, proactive behavior, and making AI feel less disposable.
+I enjoy building things that cross the line between software and everyday life — tools for work, AI experiments, automations, and small projects that solve a concrete problem for someone around me.
 
-## Current direction
+What interests me most right now is the point where AI stops being just a chat window and becomes part of a real workflow: remembering context, using tools, making safe decisions, and helping complete work from start to finish.
 
-Right now I am exploring:
+## Tech I use
 
-- better long-term memory quality
-- safer tool-using agents
-- context-aware proactive assistants
-- follow-up systems that feel natural instead of robotic
-- better UX across messaging, web, and local runtime surfaces
+`Python` · `FastAPI` · `Django / DRF` · `React` · `React Native` · `SQLite` · `PostgreSQL` · `LangGraph` · `ChromaDB` · `Docker` · `REST APIs` · `AI APIs` · `automation tooling`
 
-## Tech I use a lot
+## Find the main projects
 
-`Python` `FastAPI` `LangGraph` `SQLite` `ChromaDB` `Gemini` `Vertex AI` `Telegram Bot APIs` `GitHub` `automation tooling`
-
-## Around my GitHub
-
-- Main project: [Astakos AI Agent](https://github.com/alexneverland/Astakos-AI-Agent)
-- GitHub profile: [@alexneverland](https://github.com/alexneverland)
+- [Astakos AI Agent](https://github.com/alexneverland/Astakos-AI-Agent)
+- [OrderMind](https://github.com/alexneverland/OrderMind)
+- [@alexneverland on GitHub](https://github.com/alexneverland)
 
 ---
 
-If you are into AI agents, memory systems, local-first software, or practical automation, you will probably enjoy what I am building.
+I like software that earns its place by being useful.
