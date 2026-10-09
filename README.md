@@ -1,14 +1,22 @@
+<div align="center">
+
 # Lazaros Avramidis
 
-### I build practical software around real problems.
+### Software Developer · AI Systems · Business Automation
 
-I'm a software developer who likes turning messy everyday workflows into tools that actually get used.
+I build **practical software around real problems** — from local-first AI agents to B2B workflows, automation, and operational tools.
 
-Some projects start from problems I meet at work. Others start because I want an AI assistant to remember more, do more, or fit better into everyday life. I mostly work with Python, FastAPI, Django, React / React Native, SQLite, and AI APIs — but the technology comes second to making the workflow useful.
+I care less about demos that look clever and more about software that **keeps working after the demo ends**.
 
 [![Astakos AI Agent](https://img.shields.io/badge/Astakos-AI_Agent-2563EB?style=for-the-badge)](https://github.com/alexneverland/Astakos-AI-Agent)
 [![OrderMind](https://img.shields.io/badge/OrderMind-B2B_AI_Workflow-0F766E?style=for-the-badge)](https://github.com/alexneverland/OrderMind)
-[![Python](https://img.shields.io/badge/Python-Builder-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Lazaros_Solutions-111827?style=for-the-badge)](https://lazaros-solutions.vercel.app/)
+
+`Python` · `FastAPI` · `Django` · `React` · `React Native` · `SQLite` · `Docker` · `AI APIs`
+
+</div>
+
+---
 
 ## What I'm building now
 
